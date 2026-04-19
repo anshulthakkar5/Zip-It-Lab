@@ -22,13 +22,13 @@ public class App {
             i++;
         }
 
- 
+   
         while (i < list1.size()) {
             result.add(list1.get(i));
             i++;
         }
 
-      
+     
         while (i < list2.size()) {
             result.add(list2.get(i));
             i++;
@@ -41,7 +41,6 @@ public class App {
         List<Integer> a = List.of(1, 2, 3);
         List<Integer> b = List.of(10, 20, 30, 40);
 
-        List<Integer> result = zip(a, b);
-        System.out.println(result); // [1, 10, 2, 20, 3, 30, 40]
+        System.out.println(zip(a, b));
     }
 }
